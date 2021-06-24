@@ -14,7 +14,7 @@ fn main() {
     let secret_number = rand::thread_rng().gen_range(1..101);
 
     loop {
-        println!("密码数字是：{}", secret_number);
+        // println!("密码数字是：{}", secret_number);
 
         println!("请输入要猜的数字.");
 
