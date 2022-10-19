@@ -3,7 +3,7 @@
 name = "guessing_gametestxyf"
 version = "0.1.0"
 authors = ["123 <you123@qq.com>"]
-edition = "2022"
+edition = "2018"
 description = "cargo publish test"
 license = "MIT OR Apache-2.0"
 
