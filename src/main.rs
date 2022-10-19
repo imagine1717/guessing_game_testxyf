@@ -13,6 +13,7 @@ fn main() {
 
     let secret_number = rand::thread_rng().gen_range(1..101);
 
+    // loop {} 无限循环
     loop {
         // println!("密码数字是：{}", secret_number);
 
@@ -34,7 +35,7 @@ fn main() {
 
         println!("你猜：{}", guess);
 
-        // guess 和 secrect_number  比较大小
+        // guess 和 secret_number  比较大小
         match guess.cmp(&secret_number) {
             Ordering::Less => println!("小了点!"),
             Ordering::Greater => println!("大了点!"),
